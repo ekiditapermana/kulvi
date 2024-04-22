@@ -1,0 +1,44 @@
+/* Jumbotron */
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 280px;
+  width: auto;
+  height: 300px;
+  justify-content: center;
+  background-position: center;
+  background: linear-gradient(rgba(0, 0, 5, 0.5), rgba(0, 0, 5, 0.5)),
+    url("/src/public/images/hero-image_4.jpg") repeat center;
+}
+
+.hero_inner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-position: center;
+  position: absolute;
+}
+
+.hero_title {
+  color: #f5f7f8;
+  font-weight: 600;
+  font-size: 28px;
+  text-shadow: 1px 1px #141414;
+}
+
+.hero_tagline {
+  color: #f5f7f8;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px #141414;
+  font-size: 18px;
+  font-weight: 600;
+}
